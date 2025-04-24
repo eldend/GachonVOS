@@ -1,0 +1,12 @@
+diff a/backend_12150337/src/main/java/com/example/backend/application/dto/PostsDto.java b/backend_12150337/src/main/java/com/example/backend/application/dto/PostsDto.java	(rejected hunks)
+@@ -41,8 +41,8 @@
+                     .content(content)
+                     .view(0)
+                     .user(user)
+-                    .processState(processState)
+-                    .postCategory(postCategory)
++                    .processState(processState != null ? processState : ProcessState.처리대기)
++                    .postCategory(postCategory != null ? postCategory : PostCategory.기타)
+                     .build();
+ 
+             return posts;

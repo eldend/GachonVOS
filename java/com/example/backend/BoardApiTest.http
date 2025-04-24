@@ -1,0 +1,36 @@
+### 전체 회원 정보 조회
+# @no-redirect
+POST http://localhost:8080/api/users/
+
+### 특정 회원 조회
+# @no-redirect
+GET http://localhost:8080/api/user/1
+
+### 특정 게시물 조회
+# @no-redirect
+GET http://localhost:8080/api/posts/2
+
+### 회원 등록
+# @no-redirect
+POST http://localhost:8080/api/user
+Content-Type: application/json
+
+{
+  "username": "황희정2",
+  "email": "hwgachon.ac.kr"
+}
+
+### 회원 수정
+PUT http://localhost:8080/api/user/modify
+Content-Type: application/json
+
+{
+  "id": 110121,
+  "name": "수정이름",
+  "email": "update@update.com"
+}
+
+### 회원 삭제
+
+# @no-redirect
+DELETE http://localhost:8080/api/user/1
