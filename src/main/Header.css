@@ -1,0 +1,67 @@
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 1300px;
+    height: 120px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+}
+.header-container{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+}
+.right-links{
+    display: flex;
+    margin-top: 40px;
+    height: 80px;
+    width: 800px;
+}
+.right-links a {
+    display: flex;
+    margin-left: 70px;
+    text-decoration-line: none;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    height: 75px;
+}
+.right-links a:hover{
+    color:#004E96;
+    border-bottom: 5px solid #004E96;
+}
+.right-links a:first-child{
+    margin-left: 310px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 950px;
+    align-items: right;
+}
+  
+  .loginBtn, .signupBtn {
+    background-color: #D9D9D9;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  
+  .btnLink {
+      display: flex;
+      justify-content: center;
+      text-decoration-line: none;
+      color: black;
+  }
+  @media (max-width: 1300px) {
+    .header-container{
+      width: 100%;
+      min-width: 900px;
+    }
+  }

@@ -1,0 +1,170 @@
+.WritePage{
+    position: flex;
+    float: center;
+    left: 0;
+    top: 0;
+    width: 1300px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 1500px;
+}
+.postForm{
+    position: relative;
+    float:center;
+}
+.Box{
+    border: 1px solid black;
+}
+.intro{
+    border: 1px solid black;
+}
+.writeintro{
+    display: block;
+    padding: 25px;
+    border: 0.5px solid #3E3E3E;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.introtitle{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.introContent{
+    color: #A1A0A0;
+    font-weight: bold;
+}
+.writebutton {
+    width: 100%;
+    text-align: center;
+}
+.writebutton > button {
+    margin-top: 20px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 200px;
+    color:#FFFFFF;
+    background-color: #004E96;
+    border: none;
+    cursor: pointer;
+}
+.form-group {
+    margin-top: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+}
+.form-group > input {
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    height: 39px;
+    width: 70%;
+}
+.form-group > input:focus {
+    outline: none;
+}
+.form-group > label {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-right: 1px solid black;
+    background-color: #D9D9D9;
+}
+.select{
+    margin-top: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+}
+.select > select {
+    font-size: 20px;
+    border: none;
+    height: 39px;
+    width: 85%;
+    text-align: center;
+    appearance: none;
+    background: url(../img/select.png) no-repeat 100% 50%;  /* 화살표 모양의 이미지 */ 
+    background-size: 10px;
+    border: none;
+}
+.select > select:focus{
+    outline: none;
+}
+.select > label {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 1px solid black;
+    background-color: #D9D9D9;
+}
+.titleform{
+    display: flex;
+}
+.icon{
+    width:10%;
+}
+.icon > svg {
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 30px;
+    height: 30px;
+}
+.icon2{
+    float: center;
+    width: 10%;
+}
+.icon2 > svg {
+    margin-left: 20px;
+    margin-top: 200px;
+    width: 30px;
+    height: 30px;
+}
+.icon2 > button {
+    margin-left: 1px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.form-group2 {
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+    height: 460px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+.form-group2 > textarea:focus {
+    outline: none;
+}
+.form-group2 > .form-control{
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    width:89%;
+    height: 400px;
+    resize: none;
+    border: none;
+}

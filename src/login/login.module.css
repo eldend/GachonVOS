@@ -1,0 +1,97 @@
+.page {
+    position: flex;
+    border-top: 3px solid #004E96;
+    border-bottom: 3px solid #004E96;
+    text-align: center;
+    width: 1300px;
+    margin: 150px auto;
+}
+
+.titleWrap {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #004E96;
+}
+
+.subtitleWrap {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.contentWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.inputWrap {
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid #A1A0A0;
+}
+
+.inputWrap:focus-within {
+border: 1px solid black;
+}
+
+.input {
+    width: 95%;
+    outline: none;
+    border: none;
+    height: 23px;
+    font-size: 12px;
+}
+
+.input::placeholder {
+    color: #D9D9D9;
+    font-size: 12px;
+}
+
+.bottomBtn {
+    width: 150px;
+    height: 37px;
+    border: none;
+    border-radius: 30px;
+    background-color: #004E96;
+    color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bottomLink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottomFindPw {
+    color: #A1A0A0;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+.bottomLogin {
+    color: #A1A0A0;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 180px;
+    text-decoration: underline;
+}
+@media (max-width: 1000px) {
+    .page{
+      width: 100%;
+      min-width: 850px;
+    }
+  }

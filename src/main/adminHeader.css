@@ -1,0 +1,71 @@
+.adminHeaderWrap {
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    width: 1300px;
+    height: 130px;
+}
+.adminHeader{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid darkgray;
+    background-color: white;
+}
+
+
+.buttonHeader{
+    margin-top: 88px;
+    margin-right: 70px;
+    align-items: right;
+}
+
+.logoutBtn, .adminBtn {
+    background-color: #D9D9D9;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.btnLink {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    color: black;
+}
+@media (max-width: 1300px) {
+    .header-container{
+        width: 100%;
+        min-width: 900px;
+    }
+}
+.manageTab{
+    display: flex;
+    justify-content: flex-end;
+    height: 65px;
+    border-bottom: 0.5px solid darkgray;
+    background-color: white;
+}
+.manageTab a {
+    margin-top: 11px;
+    margin-left: px;
+    margin-right: 70px;
+    text-decoration-line: none;
+    font-size: 28px;
+    color: #8A8A8A;
+    height: 50px;
+}
+.manageTab a:hover{
+    color:#8A8A8A;
+    font-weight: bold;
+    border-bottom: 5px solid #004E96;
+}
+.manageTab a:first-child{
+    margin-left: 310px;
+}
+

@@ -1,0 +1,130 @@
+.page {
+    position: flex;
+    top: 0;
+    left: 50%;
+    width: 1300px;
+    margin: 100px auto;
+    max-width: 500px;
+    padding: 0 20px;
+}
+
+.titleWrap {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #004E96;
+}
+
+.inputTitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #5B5B5B;
+}
+
+.inputWrap {
+    display: flex;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid #A1A0A0;
+    margin-bottom: 30px;
+}
+
+.inputWrap:focus-within {
+border: 1px solid black;
+}
+
+.emailWrap {
+    height: 75px;
+}
+
+.inputbtnWrap {
+    width: 75%;
+    display: flex;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: white;
+    border: 1px solid #A1A0A0;
+    margin-bottom:30px;
+}
+
+.inputbtnWrap:focus-within {
+    border: 1px solid black;
+}
+
+.emailinput {
+    margin-left: 5px;
+    width: 95%;
+    outline: none;
+    border: none;
+    height: 23px;
+    font-size: 13px;
+}
+
+.emailinput::placeholder {
+    color: #D9D9D9;
+    font-size: 13px;
+    text-align: right;
+}
+
+.input {
+    margin-left: 5px;
+    width: 95%;
+    outline: none;
+    border: none;
+    height: 23px;
+    font-size: 13px;
+}
+
+.input::placeholder {
+    color: #D9D9D9;
+    font-size: 13px;
+    text-align: right;
+}
+
+.correctMessageWrap {
+    color: #00C714;
+    font-size: 11px;
+    text-align: right;
+}
+
+.errorMessageWrap {
+    color: #FF0000;
+    font-size: 11px;
+    text-align: right;
+}
+
+.emailcheckBtn {
+    margin-top: 8px;
+    width: 105px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004E96;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bottomBtn {
+    margin:auto;
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 90px;
+    height: 37px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004E96;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}

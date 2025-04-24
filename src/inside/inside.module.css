@@ -1,0 +1,208 @@
+.insidePage {
+    position: flex;
+    left: 0;
+    top: 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.insideTitleWrap {
+    margin-top: 120px;
+    border-top: 3px solid #004E96;
+    border-bottom: 1px solid #757A83;
+    display: flex;
+    justify-content: flex-start;
+    height: 65px;
+    padding: 28px;
+}
+
+.insideTitle {
+    width: 81%;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 13px;
+    padding: 6px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.whoisWriter {
+    margin-top: 8px;
+    width: 175px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004E96;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.insideDetailWrap {
+    border-bottom: 3px solid #004E96;
+    padding: 20px;
+}
+
+.insideDetail {
+    font-size: 19px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 50px;
+}
+
+.insideAdd {
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+.insideManagerWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    height: 65px;
+}
+
+.insideManager {
+    width: 81%;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 13px;
+    padding: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5B5B5B;
+}
+.managerBoxWrap {
+    margin-top: 8px;
+    width: 155px;
+    height: 48px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.managerBoxWrap > select {
+
+    -webkit-appearance: none;  /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    width: 140px;
+    padding: .8em .5em;
+    background: url(../img/select.png) no-repeat 95% 50%;  /* 화살표 모양의 이미지 */
+    background-size: 12px;
+    font-weight: bold;
+    border: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.managerBoxWrap > select::-ms-expand {
+    display: none;
+}
+
+.managerBoxWrap > select > option {
+    font-size: 17px;
+}
+
+.managerBoxWrap > select:focus {
+    outline: none;
+}
+
+.managerInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 280px;
+}
+
+.managerPartWrap {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    margin-right: 15px;
+    margin-left: 30px;
+    border: 1px solid #A1A0A0;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.managerPart {
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 8px;
+    text-align: center;
+    width: 130px;
+    line-height: 47px;
+    border-right: 1px solid #A1A0A0;
+    background-color: #d9d9d9;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.managerTeam {
+    width: 340px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 1px;
+}
+
+.managerTeam::placeholder {
+    font-size: 19px;
+    color: #A1A0A0;
+}
+
+.managerCommentWrap {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border: 1px solid #A1A0A0;
+    border-radius: 10px;
+    width: 1039px;
+    height: 300px;
+}
+.managerComment {
+    font-size: 19px;
+    width: 90%;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.managerComment::placeholder {
+    font-size: 19px;
+    color: #A1A0A0;
+}
+
+.manageBtnWrap{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomChangeBtn {
+    width: 230px;
+    height: 48px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #004E96;
+    margin-left: 420px;
+}
+
+.muhan {
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.footer{
+    background-color: #2B2F38;
+}
+.footerWrap {
+    position: flex;
+    background-color: #2B2F38;
+    text-align: center;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 1300px;
+    height: 140px;
+    margin: 0 auto;
+
+}
+
+#gcimg {
+    margin-top: 35px;
+}
+
+.footerContentWrap {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+}
+.footerContent {
+    color: #95979C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

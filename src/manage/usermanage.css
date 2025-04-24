@@ -1,0 +1,454 @@
+.mypage-page {
+    color: #004E96;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.userManagePage {
+    width: 1300px;
+    margin: 0 auto;
+}
+.userManageSearch {
+    height: 3%;
+    position: flex;
+    width: 1200px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+.userManageSelect{
+    margin-left: auto;
+    margin-right: 16px;
+}
+.userManageSelect > select{
+    -webkit-appearance: none;  /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    width: 140px;
+    padding: .8em .5em;
+    background: url(../img/select.png) no-repeat 95% 50%;  /* 화살표 모양의 이미지 */
+    background-size: 10px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.userManageSelect > select::-ms-expand {
+    display: none;
+}
+
+.userManageSelect > select > option {
+    font-size: 17px;
+}
+.userManageSelect > select:focus {
+    outline: none;
+}
+
+.userManageSearch > form {
+    width: 205px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
+.userManageSearch > form > input {
+    border: none;
+    padding: 5px;
+    border-right: 1px solid #000;
+}
+.userManageSearch > form > input:focus {
+    outline: none;
+}
+
+.form-control {
+    margin-left: 6px;
+    width: 156px;
+}
+.searchBtn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.searchIcon {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.managemodal-close-btn {
+    cursor: pointer;
+    float: right;
+    border: none;
+    background-color: white;
+}
+
+.popupName {
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.managemodal-container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+}
+
+.managemodal-content {
+    border: 1px solid #D9D9D9;
+    background-color: #ffffff;
+    width: 600px;
+    height: 580px;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoName {
+    width: 40%;
+    text-align: center;
+}
+
+.infoInfo {
+    width: 60%;
+    text-align: center;
+}
+
+
+.testUserName {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.userInfoList {
+    width: 100%;
+    border-top: 2px solid #000;
+}
+.userInfoList > div > a {
+    cursor: pointer;
+}
+
+.infoTable {
+    width: 90%;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+}
+
+.info > div.infoName {
+    border-bottom: 1px solid #d9d9d9;
+    height: 36px;
+    margin-top: 8px;
+}
+
+.info > div.infoInfo {
+    border-bottom: 1px solid #d9d9d9;
+    height: 36px;
+    margin-top: 8px;
+}
+
+.userInfoList > div {
+    border-bottom: 1px solid #ddd;
+}
+
+.userInfoList > div.top {
+    border-bottom: 1px solid #999;
+    height: 57px;
+    background-color: #D9D9D9;
+
+}
+.userInfoList > div.top:hover {
+    background-color: #D9D9D9;
+}
+.userInfoList > div:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.userInfoList > div a > div {
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.userInfoList > div > div {
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.userInfoList > div:hover {
+    background-color: aliceblue;
+}
+
+.userInfoList > div.top > div {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.userInfoList .num {
+    width: 14%;
+}
+
+.userInfoList .title {
+    width: 23%;
+    text-align: center;
+}
+.userInfoList .top .title {
+    text-align: center;
+}
+
+.userInfoList .writer {
+    width: 23%;
+}
+
+.userInfoList .date {
+    width: 40%;
+}
+
+.manageButton {
+    width: 5%;
+    margin-left: 4px;
+    margin-right: 18px;
+    background-color: #D9D9D9;
+    font-size: 1rem;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.bottomMuhanWrap {
+    margin-bottom: 180px;
+}
+
+.muhan {
+    cursor: pointer;
+    margin-top: 20px;
+}
+.board_page {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+.App1 {
+    margin-right: auto;
+}
+.App2 {
+    margin-left: auto;
+    display: flex;
+}
+
+.bubble {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.board_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 100%;
+    margin-left: 60px;
+    border-left: 0;
+    vertical-align: middle;
+}
+
+.board_page a.bt {
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    padding: 10px;
+}
+
+.board_page a.bt:hover{
+    font-size: 1.4rem;
+}
+
+.MdKeyboardArrowLeft {
+    font-weight: bold;
+}
+
+.board_page a.num {
+    padding: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    border-radius: 100%;
+}
+
+.board_page a.num:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 600;
+}
+
+.menu-bar {
+    width: 100%;
+    background-color: #004E96;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+    display: block
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+nav ul li{
+    width: 400px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul li:last-child{
+    margin-right: 10px;
+    border:none;
+}
+nav li:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .userManagePage {
+        width: 100%;
+        min-width: 320px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .userInfoList .num,
+    .userInfoList .writer,
+    .userInfoList .count {
+        display: none;
+    }
+
+    .userInfoList .date {
+        width: 40%;
+    }
+
+    .userInfoList .title {
+        text-indent: 10px;
+    }
+
+    .userInfoList .top .title {
+        text-indent: 0;
+    }
+
+    .board_page a {
+        width: 26px;
+        height: 26px;
+    }
+
+    .board_page a.bt {
+        padding-top: 7px;
+    }
+
+    .board_page a.num {
+        padding-top: 6px;
+    }
+
+    .board_view .info dl {
+        width: 50%;
+        padding: 0;
+    }
+
+    .board_view .info dl:nth-child(-n+2) {
+        margin-bottom: 5px;
+    }
+
+    .board_view .info dl::before {
+        display: none;
+    }
+
+    .board_view .info dl dt,
+    .board_view .info dl dd {
+        font-size: 1.2rem;
+    }
+
+    .board_write .info dl {
+        width: 49%;
+    }
+
+    .board_write .info dl:first-child {
+        margin-right: 2%;
+    }
+
+    .board_write .title dt,
+    .board_write .info dt {
+        display: none;
+    }
+
+    .board_write .title dd,
+    .board_write .info dd {
+        width: 100%;
+    }
+
+    .board_write .title input[type="text"],
+    .board_write .info input[type="text"],
+    .board_write .info input[type="password"] {
+        width: 100%;
+    }
+}
+
+.modal-close-btn {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.deleteBtn2{
+    width: 150px;
+    height: 48px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #D20000;
+}

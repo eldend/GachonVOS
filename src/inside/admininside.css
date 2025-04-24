@@ -1,0 +1,396 @@
+.insidePage {
+    position: flex;
+    left: 0;
+    top: 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.insideTitleWrap {
+    margin-top: 120px;
+    border-top: 3px solid #004E96;
+    border-bottom: 1px solid #757A83;
+    display: flex;
+    justify-content: flex-start;
+    height: 65px;
+    padding: 28px;
+}
+
+.insideTitle {
+    width: 81%;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 13px;
+    padding: 6px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.whoisWriter {
+    margin-top: 8px;
+    width: 175px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004E96;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.insideDetailWrap {
+    border-bottom: 3px solid #004E96;
+    padding: 20px;
+}
+
+.insideDetail {
+    font-size: 19px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 50px;
+}
+
+.insideAdd {
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+}
+
+.insideManagerWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    height: 65px;
+}
+
+.insideManager {
+    width: 81%;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 13px;
+    padding: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5B5B5B;
+}
+.managerBoxWrap {
+    margin-top: 8px;
+    width: 155px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #004E96;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.managerBox {
+    margin-top: 10px;
+}
+
+.managerDetailWrap {
+    padding: 35px;
+    border: 0.5px solid #D9D9D9;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.managerInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 280px;
+}
+
+.managerPartWrap {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+}
+
+.managerPart {
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 8px;
+    color: #5B5B5B;
+}
+
+.managerTeam {
+    font-size: 19px;
+}
+
+.managerComment {
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+.managerDate {
+    text-align: right;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+
+.manageBtnWrap{
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    margin-left: 260px;
+}
+
+.bottomChangeBtn, .bottomDeleteBtn {
+    width: 230px;
+    height: 48px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bottomChangeBtn {
+    background-color: #004E96;
+    margin-right: 45px;
+}
+
+.bottomDeleteBtn {
+    background-color: #D20000;
+    margin-left: 45px;
+}
+
+.muhanWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.muhan2 {
+    margin-top: 0px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    position: fixed;
+}
+.managemodal-close-btn {
+    cursor: pointer;
+    float: right;
+    border: none;
+    background-color: white;
+}
+
+div.popupName {
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.managemodal-container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+}
+
+
+.managemodal-content {
+    border: 1px solid #D9D9D9;
+    background-color: #ffffff;
+    width: 600px;
+    height: 580px;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.infoName {
+    width: 40%;
+    text-align: center;
+}
+
+.infoInfo {
+    width: 60%;
+    text-align: center;
+}
+
+
+.testUserName {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.userInfoList {
+    width: 100%;
+    border-top: 2px solid #000;
+}
+.userInfoList > a {
+    cursor: pointer;
+}
+.userInfoList > div a > div {
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.infoTable {
+    width: 100%;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17.8px;
+}
+.info{
+    display: flex;
+}
+
+.info > .infoName {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d9d9d9;
+    height: 36px;
+    margin-top: 8px;
+    padding-top: 15px;
+    text-align: center;
+    float: center;
+}
+
+.info > .infoInfo {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d9d9d9;
+    height: 36px;
+    margin-top: 8px;
+    padding-top: 15px;
+}
+@media (max-width: 1000px) {
+    .userManagePage {
+        width: 100%;
+        min-width: 320px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .userInfoList .num,
+    .userInfoList .writer,
+    .userInfoList .count {
+        display: none;
+    }
+
+    .userInfoList .date {
+        width: 40%;
+    }
+
+    .userInfoList .title {
+        text-indent: 10px;
+    }
+
+    .userInfoList .top .title {
+        text-indent: 0;
+    }
+
+    .board_page a {
+        width: 26px;
+        height: 26px;
+    }
+
+    .board_page a.bt {
+        padding-top: 7px;
+    }
+
+    .board_page a.num {
+        padding-top: 6px;
+    }
+
+    .board_view .info dl {
+        width: 50%;
+        padding: 0;
+    }
+
+    .board_view .info dl:nth-child(-n+2) {
+        margin-bottom: 5px;
+    }
+
+    .board_view .info dl::before {
+        display: none;
+    }
+
+    .board_view .info dl dt,
+    .board_view .info dl dd {
+        font-size: 1.2rem;
+    }
+
+    .board_write .info dl {
+        width: 49%;
+    }
+
+    .board_write .info dl:first-child {
+        margin-right: 2%;
+    }
+
+    .board_write .title dt,
+    .board_write .info dt {
+        display: none;
+    }
+
+    .board_write .title dd,
+    .board_write .info dd {
+        width: 100%;
+    }
+
+    .board_write .title input[type="text"],
+    .board_write .info input[type="text"],
+    .board_write .info input[type="password"] {
+        width: 100%;
+    }
+}
+.modal-close-btn {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.deleteBtn2{
+    width: 150px;
+    height: 48px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #D20000;
+}

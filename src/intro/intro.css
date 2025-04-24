@@ -1,0 +1,64 @@
+.introPage {
+    position: flex;
+    left: 0;
+    top: 0;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.intro1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.introBox {
+    display: block;
+    padding: 25px;
+    border: 0.5px solid #3E3E3E;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 15px;
+}
+
+.introContent {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.intro2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+#stepimg {
+    margin-left: 60px;
+    width: 75%;
+    margin: auto;
+    display: block;
+    margin-bottom: 90px;
+}
+
+@media (max-width: 600px) {
+    /* 화면 크기가 600px 이하인 경우의 스타일 */
+    .introPage {
+        padding: 10px;
+    }
+
+    .intro1 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .introBox {
+        padding: 12px;
+    }
+}

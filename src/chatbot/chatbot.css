@@ -1,0 +1,142 @@
+
+    .chatBotPage {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        background-color: #d9d9d9;
+    }
+
+    .chattingWrap {
+        background-color: #d9d9d9;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        overflow-y: scroll;
+    }
+    .briefWrap{
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .briefWrap .bot {
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .chatting {
+        display: flex;
+    }
+
+    .messageType {
+        margin-bottom: 10px;
+    }
+
+    .messageType .bot {
+        margin-right: 20px;
+    }
+
+    .brief{
+        font-size: 15px;
+        padding: 19px;
+        max-width: 500px;
+        min-width: 10px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        box-shadow: 5px 5px 5px #a1a0a0;
+        width: max-content;
+        background-color: #568EF4;
+        border-bottom-right-radius: 30px;
+        color: white;
+        margin-top : 30px;
+        margin-bottom: 10px;
+    }
+
+    .rightAlign {
+        color: white;
+        width: auto;
+        padding: 10px 0;
+        max-width: 548px;
+        position: relative;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+    
+    .leftAlign {
+        padding: 10px 0;
+        color: white;
+        max-width: 548px; 
+        width: auto;
+        margin-left: 30px;
+
+    }
+
+    .messageContent{
+        font-size: 15px;
+        padding: 19px;
+        max-width: 500px;
+        min-width: 10px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 5px 5px 5px #a1a0a0;
+        width: max-content;
+        height: max-content;
+    }
+    
+    .rightAlign > .messageContent {
+        background-color: #757A83;
+        border-top-left-radius: 30px;
+    }
+
+    .leftAlign > .messageContent {
+        background-color: #568EF4;
+        border-top-right-radius: 30px;
+    }
+
+    .writeMessageWrap {
+        background-color: white;
+        border-top: solid 1px darkgray;
+        height: 78px;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+    .writeMessageWrap > form {
+        margin-top: 12px;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        display: flex;
+        justify-content: space-between;
+    }
+    .writeInput {
+        width: 86vw;
+        height: 40px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: white;
+        margin-left: 12px;
+        margin-top: 2px;
+        float: left;
+    }
+
+    .sendWrap{
+        width: 110px;
+    }
+    .send {
+        background-color: #004e96;
+        font-size: 1rem;
+        border: none;
+        height: 43px;
+        cursor: pointer;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        width: 80px;
+    }
+
+    
